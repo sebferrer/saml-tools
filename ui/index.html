@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SAML Tools</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <app-root>
+        <div>
+            <label>SAML XML</label>
+            <br/>
+            <textArea id="xml" rows="8" cols="80"></textArea>
+        </div>
+        <div>
+            <label>Private Key</label>
+            <br/>
+            <textArea id="key" rows="8" cols="80"></textArea>
+        </div>
+        <div>
+            <button id="decryptButton">Decrypt XML</button>
+        </div>
+        <br/><br/>
+        <div>
+            <label>Decrypted XML</label>
+            <br/>
+            <textArea id="decryptedXML" rows="8" cols="80"></textArea>
+        </div>
+    </app-root>
+    <script src="main.js"></script>
+</body>
+
+</html>
